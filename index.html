@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/css/intlTelInput.css">
+		<link rel="stylesheet" href="assets/null.css">
+		<link rel="stylesheet" href="assets/main.css">
+	</head>
+
+	<body>
+		<main class="main">
+			<div class="main-content-wrapper">
+				<div class="user-fill-form-block">
+					<div class="logo-form">
+						<img src="images/logo/logo.png" alt="logo">
+					</div>
+
+					<div class="form-title-info">
+						<p>Войти в кабинет</p>
+						<span>
+							пожалуйста подтвердите вашу страну<br>
+							и введите номер телефона
+						</span>
+					</div>
+
+					<div class="main-form-fill-out-block">
+						<form action="" method="" autocomplete="off" name="user-login-form" id="user-login-form-id">
+							<div class="form-main-body">
+								<label for="phone" id="country-label">
+									<span>Country</span>
+									<input type="text" name="country" id="phone" placeholder="Choose the country" value="">
+								</label>
+
+								<!-- красный класс class="red-invalid" ;) -->
+								<label for="phone-input" id="tel-input-label">
+									<span>Phone Number</span>
+									<input type="tel" name="phone" id="phone-input" value="" placeholder="Enter phone number">
+								</label>
+
+								<label for="keep-signed-in" id="keep-signed-in-label">
+									<input type="checkbox" name="keep-signed-in" id="keep-signed-in">
+									<span>Keep me signed in</span>
+								</label>
+							</div>
+
+							<button type="submit" class="login-btn">
+								<span>войти</span>
+							</button>
+						</form>
+					</div>
+					
+					<div class="change-lang">
+						<span>продолжить на русском</span>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+		<script src="script/intl-tel-input.js"></script>
+		<script src="script/utils.js"></script>
+		<!-- <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/intlTelInput.min.js"></script> -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
+		<script src="script/main.js"></script>
+	</body>
+
+</html>

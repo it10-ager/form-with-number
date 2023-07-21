@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+img {
+	width: inherit;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background: var(--bgColor);
+	color: var(--mainColor);
+	font-size: var(--mainFontSize);
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	position: relative;
+}
+
+input,
+button,
+textarea {
+	font-size: inherit;
+}
+
+textarea {
+	resize: none;
+}
+
+button {
+	cursor: pointer;
+	color: inherit;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
